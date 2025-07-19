@@ -1,0 +1,107 @@
+.order-item {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr;
+  align-items: start;
+  gap: 30px;
+  border: 1px solid tomato;
+  padding: 20px;
+  margin: 30px 0px;
+  font-size: 14px;
+  color: #505050;
+}
+
+.order-item-food,
+.order-item-name {
+  font-weight: 600;
+}
+
+.order-item-name {
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.order-item .fa-box {
+  color: rgb(186, 132, 32);
+  font-size: 35px;
+}
+
+.order-item-address {
+  margin-bottom: 10px;
+}
+
+.processing {
+  background-color: #987fee;
+}
+
+.out-for-delivery {
+  background-color: #c8d427;
+}
+
+.delivered {
+  background-color: rgb(192, 242, 199);
+}
+
+.cancelled {
+  background-color: rgb(255, 198, 188);
+}
+
+.order-items-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+.order-items-table th,
+.order-items-table td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: left;
+}
+
+.order-items-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.time-bold {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.details {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.amount-color {
+  color: rgb(252, 87, 58);
+  font-weight: 700;
+}
+
+.pro{
+  background-color: #987fee;
+}
+
+.out{
+  background-color: yellow;
+}
+
+.del{
+  background-color: greenyellow;
+}
+
+.can{
+  background-color: tomato;
+}
+
+@media (max-width: 1000px) {
+  .order-item {
+    font-size: 12px;
+    grid-template-columns: 0.5fr 2fr 1fr;
+    padding: 15px 8px;
+  }
+
+  .order-item .fa-box {
+    width: 40px;
+  }
+}
