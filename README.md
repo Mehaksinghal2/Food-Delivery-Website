@@ -100,6 +100,7 @@ The Food Delivery Website is a full-stack web application designed to provide a 
   npm start
   ```
 **Project Structure**
+
 **Backend**
 This folder contains the server-side logic using Node.js and Express, with MongoDB as the database.
 * config/ – Configuration files (e.g., db.js for MongoDB connection).
