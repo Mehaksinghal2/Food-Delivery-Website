@@ -4,6 +4,7 @@
 The Food Delivery Website is a full-stack web application designed to provide a seamless food ordering experience. Users can browse menus, add items to their cart, place orders, and track them in real-time. The frontend is built using React, while the backend is powered by Node.js and MongoDB, ensuring efficient data management and a responsive user interface.
 
 **Technical Decisions and Overview**
+
 **Frontend**
 * Framework: React.js for building a responsive and dynamic user interface.
 * Routing: Utilized React Router for smooth client-side navigation across pages like Home, Cart, Login, and Orders.
