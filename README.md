@@ -102,6 +102,7 @@ The Food Delivery Website is a full-stack web application designed to provide a 
 **Project Structure**
 
 **Backend**
+
 This folder contains the server-side logic using Node.js and Express, with MongoDB as the database.
 * config/ – Configuration files (e.g., db.js for MongoDB connection).
 * controllers/ – Business logic for each resource:
@@ -114,6 +115,7 @@ This folder contains the server-side logic using Node.js and Express, with Mongo
 * uploads/ – Folder to store image files or other static resources (e.g., food item images).
 
 **Frontend**
+
 This folder hosts the main user-facing frontend built with React. It handles customer interactions like browsing food, placing orders, signing up, and payments.
 * src/components/ – Modular UI components like:
   * Header, Footer, NavBar
@@ -126,6 +128,7 @@ This folder hosts the main user-facing frontend built with React. It handles cus
   * Otp/, Verify/ – for OTP-based authentication.
     
 **Admin**
+
 This folder contains the admin panel built with React and Vite. It allows admins to manage food items, orders, and users through a responsive dashboard.
 * public/ – Static files for the admin app.
 * src/assets/ – Images and static resources used in admin UI.
